@@ -1,6 +1,34 @@
 html{
-    background-color: dimgray;
+    background-color: rgb(160, 157, 157);
 }
 .main-wrapper{
     text-align: center;
+}
+.header-repos{
+    position: absolute;
+    left: 20%;
+    right: 20%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 1em;
+    padding:0.5em;
+}
+.repo-list li {
+    padding: 1em;
+    border: 1px solid grey;
+    border-radius: 1em;
+    margin: 2em;
+}
+.repo-list a{
+    text-decoration: dashed;
+    font-weight: bolder;
+    text-shadow: 2px 2px rgba(44, 42, 42, 0.445);
+}
+a:link{
+    color: goldenrod;
+}
+a:visited{
+    color: goldenrod;
 }
