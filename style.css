@@ -27,23 +27,25 @@ ul{
     display: inline-block;
     margin: 0 auto;
     width: 70%;
-    height: 3px;
+    height: 1px;
+    border: 1px solid #db8f0c;
+    border-radius: 3.5px;
     background-color: #db8f0c;
-    color: black;
+    
 }
 
 .repo-list .link{
     padding: 1em;
     border: 1px solid grey;
-    
+    transition: 0.5s;
     border-radius: 1em;
     margin: 2em;
 }
 
 .repo-list .link:hover{
     background-color: #db8f0cc7;
-    transition: 1s;
-    transition-duration: 2s;
+    transition: 0.5s;
+    /*transition-delay: 1s;*/
 }
 .repo-list a{
     text-decoration: dashed;
@@ -53,5 +55,8 @@ a:link{
     color: rgb(54, 52, 52);
 }
 a:visited{
+    color: rgb(54, 52, 52);
+}
+a:visited:hover{
     color: rgb(54, 52, 52);
 }
