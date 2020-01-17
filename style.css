@@ -1,10 +1,18 @@
 html{
-    background-color: rgb(160, 157, 157);
+    
+    
+}
+body{
+    background:url(./assets/FirstLogo.png) fixed center;
+    background-size: 80%;
+    background-color: rgba(235, 229, 229, 0.753);
 }
 .main-wrapper{
+    
     text-align: center;
 }
 .header-repos{
+    
     position: absolute;
     left: 20%;
     right: 20%;
@@ -15,20 +23,35 @@ ul{
     margin: 1em;
     padding:0.5em;
 }
-.repo-list li {
+.breaker{
+    display: inline-block;
+    margin: 0 auto;
+    width: 70%;
+    height: 3px;
+    background-color: #db8f0c;
+    color: black;
+}
+
+.repo-list .link{
     padding: 1em;
     border: 1px solid grey;
+    
     border-radius: 1em;
     margin: 2em;
+}
+
+.repo-list .link:hover{
+    background-color: #db8f0cc7;
+    transition: 1s;
+    transition-duration: 2s;
 }
 .repo-list a{
     text-decoration: dashed;
     font-weight: bolder;
-    text-shadow: 2px 2px rgba(44, 42, 42, 0.445);
 }
 a:link{
-    color: goldenrod;
+    color: rgb(54, 52, 52);
 }
 a:visited{
-    color: goldenrod;
+    color: rgb(54, 52, 52);
 }
