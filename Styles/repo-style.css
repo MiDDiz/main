@@ -1,6 +1,6 @@
 
 body{
-    background:url(./assets/FirstLogo.png) fixed center;
+    background:url(../assets/FirstLogo.png) fixed center;
     background-size: 80%;
     background-color: rgba(235, 229, 229, 0.753);
     font-family: Arial, Helvetica, sans-serif;
@@ -16,6 +16,13 @@ body{
     left: 20%;
     right: 20%;
 }
+h1{
+    font-size: 2em;
+    font-weight: 1000;
+    color: #cc9543;
+    text-shadow: 2px 1px 0.5px black;
+}
+
 .odin-project{
     color: #cc9543;
     text-shadow: 2px 1px 0.5px black;

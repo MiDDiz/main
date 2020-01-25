@@ -1,0 +1,30 @@
+html{
+
+}
+body{
+ margin: 0;
+}
+.header{
+
+}
+.body-wrapper{
+    text-align: center;
+    
+}
+.menu{
+    background-color: cyan;
+    position: fixed;
+    width: fit-content;
+    padding: 1em;
+    margin-left: 1em;
+    display: block;
+}
+.menu a{
+    padding: 1em;
+    margin: 1em 0;
+}
+.content{
+    background-color: coral;
+    margin: 0 auto;
+    margin: 0 23%;
+}
