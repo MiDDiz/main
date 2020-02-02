@@ -1,14 +1,24 @@
 html{
+ margin: 0 auto;
 
+ font-family: sans-serif;
 }
 body{
- margin: 0;
+ margin: 0 auto;
+
+ height: 100%;
 }
 .header{
-
+    background-size: cover;
+    background-color: transparent;
+    background-position: 50% 50%;
+    background-image: url(../assets/header.jpg);
+    height: 7.5em;
+    width: 100%;
 }
 .body-wrapper{
     text-align: center;
+    height: max-content;
     
 }
 .menu{
@@ -16,7 +26,8 @@ body{
     position: fixed;
     width: fit-content;
     padding: 1em;
-    margin-left: 1em;
+    margin-left: 0;
+    border-bottom-right-radius: 5em;
     display: block;
 }
 .menu a{
@@ -27,4 +38,11 @@ body{
     background-color: coral;
     margin: 0 auto;
     margin: 0 23%;
+    padding: 0.5em 1.5em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.content .textblob{
+    margin: 1em;
+    font-size: 1.25em;
 }
